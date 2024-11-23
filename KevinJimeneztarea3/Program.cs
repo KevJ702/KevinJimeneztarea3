@@ -54,7 +54,18 @@
 
                     break;
 
-                
+                case 4:
+                    Console.Clear();
+                    Console.WriteLine("Opción dividir");
+                    Console.WriteLine("Inserte el primer número");
+                    n1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Inserte el segundo número");
+                    n2 = Convert.ToDouble(Console.ReadLine());
+                    res = n1 / n2;
+                    Console.WriteLine($"El resultado de la división es: {res}\n");
+                    break;
+
+                   
 
 
             }
