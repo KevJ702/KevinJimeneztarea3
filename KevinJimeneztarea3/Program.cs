@@ -28,8 +28,7 @@
                     Console.WriteLine("Inserte el segundo número");
                     n2 = Convert.ToDouble(Console.ReadLine());
                     res = n1 + n2;
-                    Console.WriteLine($"El resultado de la suma es: {res}/n");
-                    Console.ReadLine();
+                    Console.WriteLine($"El resultado de la suma es: {res}\n");                    
 
                     break;
                 case 2:
@@ -40,10 +39,24 @@
                     Console.WriteLine("Inserte el segundo número");
                     n2 = Convert.ToDouble(Console.ReadLine());
                     res = n1 - n2;
-                    Console.WriteLine($"El resultado de la resta es: {res}/n");
-                    Console.ReadLine();
+                    Console.WriteLine($"El resultado de la resta es: {res}\n");         
 
                     break;
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("Opción multiplicar");
+                    Console.WriteLine("Inserte el primer número");
+                    n1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Inserte el segundo número");
+                    n2 = Convert.ToDouble(Console.ReadLine());
+                    res = n1 * n2;
+                    Console.WriteLine($"El resultado de la multiplicación es: {res}\n");                  
+
+                    break;
+
+                
+
+
             }
             Console.ReadLine();
         } while ((opt>0) && (opt<=4));
